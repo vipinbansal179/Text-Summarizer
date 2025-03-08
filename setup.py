@@ -5,23 +5,23 @@ with open("README.md","r", encoding="utf-8") as fh:
 
 _version_= "0.0.0"
 
-REP0_NAME = "Text-Summarizer"
+REPO_NAME = "Text-Summarizer"
 AUTHOR_USER_NAME = "vipinbansal179"
 SRC_REPO = "textSummarizer"
 AUTHOR_EMAIL = "bansalvipin36@gmail.com"
 
 
 setuptools.setup(
-    name=REP0_NAME,
+    name=REPO_NAME,
     version=_version_,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
     description="Text Summarizer for summarizing the text",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{SRC_REPO}",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{SRC_REPO}/issues",
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
